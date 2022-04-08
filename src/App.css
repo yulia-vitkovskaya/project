@@ -1,7 +1,7 @@
 .app-wrapper {
   margin: 0 auto;
   display: grid;
-  width: 1500px;
+  width: 100%;
 
   grid-template-areas:
   "h h"
@@ -11,22 +11,7 @@
   /*grid-gap: 10px;*/
 }
 
-.header{
-  grid-area: h;
-  background-color: rgb(225, 196, 255);
+.app-wrapper-content {
+    grid-area: c;
+    background-color:rgb(118, 87, 148);
 }
-.header img{
- width:30px;
-}
-.nav{
-  grid-area: n;
-  background-color: rgb(180, 148, 211);
-}
-.content{
-  grid-area: c;
-  background-color:rgb(118, 87, 148);
-}
-.content img{
-  width: 500px;
-}
-
